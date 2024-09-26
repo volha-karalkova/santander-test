@@ -4,6 +4,9 @@ import javax.persistence.*;
 
 import static javax.persistence.GenerationType.IDENTITY;
 
+/**
+ * Entity class for shop item to store in db
+ */
 @Entity
 @Table(name = "Items")
 public class Item {
