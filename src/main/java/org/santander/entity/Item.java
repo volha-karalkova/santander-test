@@ -20,4 +20,21 @@ public class Item {
 
     @Column(nullable = false)
     private Double price;
+
+    /**
+     * Constructor to set name and price
+     *
+     * @param name name value
+     * @param price price value
+     */
+    public Item (String name, Double price) {
+        this.name = name;
+        this.price = price;
+    }
+
+    /**
+     * Constructor without parameters
+     */
+    public Item() {
+    }
 }
