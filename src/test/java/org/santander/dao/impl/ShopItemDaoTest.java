@@ -1,4 +1,4 @@
-package dao.impl;
+package org.santander.dao.impl;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -8,7 +8,6 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.santander.dao.impl.ShopItemDao;
 import org.santander.entity.Item;
 
 import static org.mockito.Mockito.when;
